@@ -6,7 +6,7 @@
 
 #define BUFFER_SIZE 5000     //размер буфера
 
-int code4(int argc, char **argv) {
+int main(int argc, char **argv) {
     if (argc != 4) {
         perror("Wrong input data\n");
         return 1;
