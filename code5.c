@@ -9,7 +9,7 @@
 #define FIFO_FILE "/tmp/myfifo" //расположение файла
 #define BUFFER_SIZE 5000        //размер буфера
 
-int code5(int argc, char **argv) {
+int main(int argc, char **argv) {
     if (argc != 4) {
         perror("Wrong input data\n");
         return 1;
